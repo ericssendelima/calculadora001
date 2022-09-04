@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(141, 186, 156);
+}
+.display{
+    border: 2px solid black;
+    padding: 10px;
+    width:auto;
+    height:min-content;
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(211, 255, 144);
+    background-color: rgb(129, 193, 248);
+}
+
+
+
+h1{
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 0%;
+
+}
+
+.superCalculadora{
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(51, 54, 124) ;
+    border-radius: 5px;
+
+}
+
+.number{
+    width: min-content;
+    display: inline-grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+

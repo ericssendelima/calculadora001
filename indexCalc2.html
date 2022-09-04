@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styleCalc2.css" rel="stylesheet">
+    <title>Calculadora 2</title>
+</head>
+<body>
+    <div class="superCalculadora">
+        <h1>Calculadora 2</h1>
+
+        <div class="display">
+
+            <label id="visorNumberTwo"></label><br>
+            <label id="visorNumberOne">0</label>
+
+
+        </div><br><br>
+
+        <div class="number">
+            <button id="zero" onclick="numbers('0')">0</button>
+            <button id="one" onclick="numbers('1')">1</button>
+            <button id="two" onclick="numbers('2')">2</button>
+            <button onclick="operator(' + ')">+</button>
+            <button id="three" onclick="numbers('3')">3</button>
+            <button id="four" onclick="numbers('4')">4</button>
+            <button id="five" onclick="numbers('5')">5</button>
+            <button onclick="operator(' - ')">-</button>
+            <button id="six" onclick="numbers('6')">6</button>
+            <button id="seven" onclick="numbers('7')">7</button>
+            <button id="eight" onclick="numbers('8')">8</button>
+            <button onclick="operator(' x ')">x</button>
+            <button id="nine" onclick="numbers('9')">9</button>
+            <button onclick="clearing()">CL</button>
+            <button onclick="resultado()">=</button>
+            <button onclick="operator(' / ')">/</button>
+        </div><br>
+
+      
+    </div>
+
+    <script src="logcCalc2.js"></script>
+
+
+
+
+</body>
+</html>
